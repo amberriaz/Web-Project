@@ -1,0 +1,89 @@
+body{
+	font-family: Roboto;
+}
+
+
+.navbar{
+   
+    font-family: Roboto;
+   
+}
+
+
+.navbar-nav{
+    font-size: 20px;
+    font-weight: 370;
+    padding-left:35px;
+	padding-right:35px;
+    font-family: Roboto;
+}
+
+
+.navbar-nav > li{
+	padding-left:30px;
+	padding-right:30px;
+  }
+
+.navbar_brand{
+    font-weight: 500;
+    text-shadow: 0px 4px 4px ;
+}
+
+.banner-image{
+    background-image: url('/images/purple-background.jpg');
+    background-size: cover;
+    opacity: 0.9;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+
+}
+.onpage-text{
+    text-shadow: thistles;
+}
+
+.side-des{
+    margin-left: 20%;
+}
+
+.side-des h1{
+    font-size: 40px;
+    color: #fff;
+    line-height: 65px;
+    float: left;
+}
+
+
+
+.extra-text{
+    background-color: rgb(83, 72, 114);
+    color:black;
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+
+
+.extra-text-footer{
+    background-color: rgb(83, 72, 114);
+    color:black;
+	
+    
+
+}
+
+.genre-h{
+    color: white;
+}
+
+.item img{
+    height: 300px;
+}
+
+.card-body h4{
+    font-family: Roboto;
+}
+

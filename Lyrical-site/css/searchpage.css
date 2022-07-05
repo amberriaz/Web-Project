@@ -1,0 +1,109 @@
+
+body {
+    background-image: url('/images/purple-caset.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Assistant', sans-serif;
+}
+
+.button {
+    cursor: pointer;
+    background-color:rgb(117, 15, 121);
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+.button:hover {
+    color:rgb(168, 55, 74);
+}
+
+.search__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    font-size: 40px;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: rgba(70, 69, 65, 0.5);
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.search__title {
+    color: white;
+    font-size: 4.5 rem;
+}
+
+.search__input__container input {
+    border: none;
+    border-bottom: 4px solid purple;
+    outline: none;
+}
+
+.search__input__container input {
+    background: transparent;
+    color: whitesmoke;
+    width: 415px;
+    font-size: x-large;
+}
+
+
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.result__item {
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.result__item__title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lyrics {
+    white-space: pre-line;
+}
+
+.lyrics__item {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.loader {
+    color: whitesmoke;
+}
+
+@media (max-width: 500px) {
+    .search__container,
+    .results__container,
+    .lyrics__container {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .search__title {
+        font-size: 2.5rem;
+    }
+    .search__input__container {
+        font-size: initial;
+    }
+    .search__input__container input {
+        width: 170px;
+    }
+}
